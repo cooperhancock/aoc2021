@@ -9,7 +9,7 @@ fn main() {
 }
 
 fn input_data() -> Vec<String> {
-    let chonky_input = include_str!("..\\..\\2_dive_input.txt");
+    let chonky_input = include_str!("..\\..\\2.txt");
     return chonky_input.lines().map(|x| x.to_string()).collect();
 }
 
