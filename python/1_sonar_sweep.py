@@ -1,5 +1,5 @@
 report = []
-REPORTFILE = "1_sonar_sweep_input.txt"
+REPORTFILE = "..\\1_sonar_sweep_input.txt"
 with open(REPORTFILE, 'r') as f:
     report = f.readlines()
 
