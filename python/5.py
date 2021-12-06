@@ -1,4 +1,3 @@
-from dataclasses import dataclass
 import functools
 
 report = []
@@ -6,7 +5,6 @@ REPORTFILE = "..\\5.txt"
 with open(REPORTFILE, 'r') as f:
     report = f.readlines()
 report_len = len(report)
-
 
 lines = []
 points = {}
