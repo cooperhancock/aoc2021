@@ -30,3 +30,4 @@ for line in report:
     
 print(f'part 1: {sum}')
 print(f'part 2: {sorted(sums)[len(sums)//2]}')
+
